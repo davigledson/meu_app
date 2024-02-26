@@ -52,24 +52,82 @@
 <!--        android:textAlignment="center"-->
 <!--        android:background="#0DD315"-->
 <!--        />-->
-    <View
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="64dp"-->
+<!--        android:background="#0349FB"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        />-->
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="610dp"-->
+<!--        android:background="#F5F6F6"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        />-->
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="64dp"-->
+<!--        android:background="#0349FB"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        />-->
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:background="#0349FB"
-        android:layout_marginBottom="8dp"
-        />
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="610dp"
-        android:background="#F5F6F6"
+        android:layout_height="40dp"
         android:layout_marginTop="8dp"
-        />
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:background="#0349FB"
-        android:layout_marginBottom="8dp"
+        android:inputType="text"
+        android:hint="Digite aqui seu texto simples"
         />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:inputType="number"
+        android:hint="Digite aqui seus  numeros"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"
+        android:hint="Digite aqui sua senha"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textAutoComplete"
+        android:hint="Digite aqui seu texto se veja as sugerstoes para autocompletar"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textAutoCorrect"
+        android:hint="Digite aqui seu ugerstoes"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textEmailAddress"
+        android:hint="Digite aqui seu email"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textMultiLine"
+        android:hint="Digite aqui seu texto em varias linhas"
+
+        />
 
 </LinearLayout>
