@@ -70,64 +70,79 @@
 <!--        android:background="#0349FB"-->
 <!--        android:layout_marginBottom="8dp"-->
 <!--        />-->
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="8dp"
-        android:inputType="text"
-        android:hint="Digite aqui seu texto simples"
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:inputType="text"-->
+<!--        android:hint="Digite aqui seu texto simples"-->
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:inputType="number"-->
+<!--        android:hint="Digite aqui seus  numeros"-->
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:hint="Digite aqui sua senha"-->
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:inputType="textAutoComplete"-->
+<!--        android:hint="Digite aqui seu texto se veja as sugerstoes para autocompletar"-->
+
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:inputType="textAutoCorrect"-->
+<!--        android:hint="Digite aqui seu ugerstoes"-->
+
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        android:hint="Digite aqui seu email"-->
+
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:inputType="textMultiLine"-->
+<!--        android:hint="Digite aqui seu texto em varias linhas"-->
+
+
+<!--        />-->
+
+    <ImageView
+        android:src="@drawable/baseline_animation_24"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="32dp"
         />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="8dp"
-        android:inputType="number"
-        android:hint="Digite aqui seus  numeros"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="8dp"
-        android:inputType="textPassword"
-        android:hint="Digite aqui sua senha"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="8dp"
-        android:inputType="textAutoComplete"
-        android:hint="Digite aqui seu texto se veja as sugerstoes para autocompletar"
-
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="8dp"
-        android:inputType="textAutoCorrect"
-        android:hint="Digite aqui seu ugerstoes"
-
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="8dp"
-        android:inputType="textEmailAddress"
-        android:hint="Digite aqui seu email"
-
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="8dp"
-        android:inputType="textMultiLine"
-        android:hint="Digite aqui seu texto em varias linhas"
-
+    <ImageView
+        android:src="@drawable/baseline_adb_24"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="32dp"
         />
 
 </LinearLayout>
