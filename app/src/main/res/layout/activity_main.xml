@@ -310,27 +310,47 @@
 <!--       />-->
 
    <Button
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="Botao 1"
        android:id="@+id/button_1"
-          app:layout_constraintBottom_toBottomOf="parent"
-          app:layout_constraintStart_toStartOf="parent"
-          app:layout_constraintEnd_toEndOf="parent"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Botao 1"
+
+
+
+
+       app:layout_constraintHorizontal_chainStyle="spread"
+       app:layout_constraintStart_toStartOf="@id/button_2"
+          app:layout_constraintEnd_toStartOf="parent"
+
           app:layout_constraintTop_toTopOf="parent"
 
        />
+
    <Button
+
+       android:id="@+id/button_2"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:id="@+id/button_2"
+
        android:text="Botao 2"
-     app:layout_constraintTop_toTopOf="@id/button_1"
+
        app:layout_constraintStart_toEndOf="@id/button_1"
-       app:layout_constraintCircle="@id/button_1"
-       app:layout_constraintCircleAngle="180"
-       app:layout_constraintCircleRadius="100dp"
+       app:layout_constraintTop_toTopOf="@id/button_1"
+       app:layout_constraintEnd_toStartOf="@id/button_3"
+
+       />
+
+   <Button
+
+       android:id="@+id/button_3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+
+       android:text="Botao 3"
 
 
+      app:layout_constraintStart_toEndOf="@id/button_2"
+       app:layout_constraintTop_toTopOf="@id/button_2"
+       app:layout_constraintEnd_toEndOf="parent"
        />
 </androidx.constraintlayout.widget.ConstraintLayout>
