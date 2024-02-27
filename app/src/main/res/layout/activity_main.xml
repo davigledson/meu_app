@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,7 +7,7 @@
     android:orientation="vertical"
 
     tools:context=".MainActivity"
-    android:background="#1967ED"
+
 
     >
 <!--   tem o ScrollView e o HorizontalScrollView  -->
@@ -251,51 +251,85 @@
 
 <!--        />-->
 
-   <TextView
+<!--   <TextView-->
+<!--       android:layout_width="wrap_content"-->
+<!--       android:layout_height="wrap_content"-->
+<!--      android:text="Segunda feira, 36 de Fevereiro"-->
+<!--       android:id="@+id/text_date"-->
+<!--       android:textSize="25dp"-->
+<!--       android:textColor="#fff"-->
+
+<!--       />-->
+<!--   <View-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="1dp"-->
+<!--       android:id="@+id/separador"-->
+<!--       android:layout_below="@id/text_date"-->
+<!--       android:background="#fff"-->
+<!--       android:layout_marginTop="16dp"-->
+
+<!--       />-->
+<!--   <CheckBox-->
+<!--       android:layout_width="wrap_content"-->
+<!--       android:layout_height="wrap_content"-->
+<!--       android:text="Corta a grama"-->
+<!--       android:id="@+id/check_1"-->
+<!--       android:layout_below="@id/separador"-->
+<!--       android:textColor="#fff"-->
+<!--       android:textSize="20dp"-->
+<!--       />-->
+<!--   <CheckBox-->
+<!--       android:layout_width="wrap_content"-->
+<!--       android:layout_height="wrap_content"-->
+<!--       android:text="Fazer Compras"-->
+<!--       android:id="@+id/check_2"-->
+<!--       android:layout_below="@id/check_1"-->
+<!--       android:textColor="#fff"-->
+<!--       android:textSize="20dp"-->
+<!--       />-->
+
+<!--<TextView-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="Complete todas as tarefas"-->
+<!--    android:textColor="#fff"-->
+<!--    android:layout_centerHorizontal="true"-->
+<!--    android:layout_alignParentBottom="true"-->
+<!--    android:textSize="20dp"-->
+<!--    />-->
+   
+<!--   <TextView-->
+<!--       android:layout_width="wrap_content"-->
+<!--       android:layout_height="wrap_content"-->
+<!--       android:text="Davi Gledson"-->
+<!--       app:layout_constraintBottom_toBottomOf="parent"-->
+<!--       app:layout_constraintStart_toStartOf="parent"-->
+<!--       app:layout_constraintEnd_toEndOf="parent"-->
+<!--       app:layout_constraintTop_toTopOf="parent"-->
+<!--      android:padding="20dp"-->
+<!--       />-->
+
+   <Button
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-      android:text="Segunda feira, 36 de Fevereiro"
-       android:id="@+id/text_date"
-       android:textSize="25dp"
-       android:textColor="#fff"
-
+       android:text="Botao 1"
+       android:id="@+id/button_2"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.1"
+       app:layout_constraintHorizontal_bias="0.2"
        />
-   <View
-       android:layout_width="match_parent"
-       android:layout_height="1dp"
-       android:id="@+id/separador"
-       android:layout_below="@id/text_date"
-       android:background="#fff"
-       android:layout_marginTop="16dp"
-
-       />
-   <CheckBox
+   <Button
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="Corta a grama"
-       android:id="@+id/check_1"
-       android:layout_below="@id/separador"
-       android:textColor="#fff"
-       android:textSize="20dp"
-       />
-   <CheckBox
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="Fazer Compras"
-       android:id="@+id/check_2"
-       android:layout_below="@id/check_1"
-       android:textColor="#fff"
-       android:textSize="20dp"
-       />
+       android:id="@+id/button_1"
+       android:text="Botao 2"
+       app:layout_constraintTop_toTopOf="@id/button_2"
+       app:layout_constraintEnd_toEndOf="parent"
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Complete todas as tarefas"
-    android:textColor="#fff"
-    android:layout_centerHorizontal="true"
-    android:layout_alignParentBottom="true"
-    android:textSize="20dp"
-    />
 
-</RelativeLayout>
+
+       />
+</androidx.constraintlayout.widget.ConstraintLayout>
