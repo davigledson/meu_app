@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -131,18 +131,122 @@
 
 <!--        />-->
 
-    <ImageView
-        android:src="@drawable/baseline_animation_24"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_margin="32dp"
+<!--    <ImageView-->
+<!--        android:src="@drawable/baseline_animation_24"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:layout_margin="32dp"-->
+<!--        />-->
+
+<!--    <ImageView-->
+<!--        android:src="@drawable/baseline_adb_24"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:layout_margin="32dp"-->
+<!--        />-->
+
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Estudar Android"-->
+<!--        android:textSize="22dp"-->
+<!--        android:textColor="#4CAF50"-->
+<!--        -->
+<!--        />-->
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textColor="#fff"
+     android:text="botao 1"
+     android:id="@+id/btn_1"
+     android:layout_alignParentStart="true"
+     android:layout_centerHorizontal="true"
+     />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="botao 2"
+        android:id="@+id/btn_2"
+        android:layout_centerHorizontal="true"
+
+
+        />
+    <!--        android:layout_above="@id/btn_1"-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="botao 3"
+        android:id="@+id/btn_3"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+
+
         />
 
-    <ImageView
-        android:src="@drawable/baseline_adb_24"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_margin="32dp"
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="botao 4"
+        android:id="@+id/btn_4"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="botao 5"
+        android:id="@+id/btn_5"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        />
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#fff"
+    android:text="botao 6"
+    android:id="@+id/btn_6"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="botao 7"
+        android:id="@+id/btn_7"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+
         />
 
-</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="botao 8"
+        android:id="@+id/btn_8"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="botao 9"
+        android:id="@+id/btn_9"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        />
+</RelativeLayout>
